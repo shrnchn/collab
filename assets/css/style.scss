@@ -1,0 +1,219 @@
+/*Store Hours App*/
+/*Copyright 2015, Sharon Chan & Andrew Nguyen*/
+/*isitopen.today*/
+/*Complete date: DDMMYYYY*/
+
+/*----------------------------------
+TABLE OF CONTENTS
+----------------------------------*/
+
+/*----------------------------------
+NORMALIZE
+----------------------------------*/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+/*----------------------------------
+BOX SIZING
+----------------------------------*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*----------------------------------
+CLEARFIX
+----------------------------------*/
+
+	.clearfix:after {
+		 	visibility: hidden;
+		  	display: block;
+		  	font-size: 0;
+		  	content: " ";
+		 	 clear: both;
+		 	 height: 0;
+		 	 }
+	* html .clearfix             { zoom: 1; } /* IE6 */
+	*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*----------------------------------
+SASS PARTIALS
+----------------------------------*/
+
+// @import "partials/_colors";
+// @import "partials/_grid";
+// @import "partials/_mixins";
+// @import "partials/_normalize";
+
+// Sections
+// @import "partials/_searchBar";
+// @import "partials/_searchButton";
+// @import "partials/_options";
+// @import "partials/_result";
+// @import "partials/_hours";
+
+
+/*----------------------------------
+VARIABLES
+----------------------------------*/
+
+$text-color: #111111;
+$base-font-size: 1.5rem;
+$base-font-family: 'Lato', sans-serif;
+$base-font-weight: 400;
+
+/*----------------------------------
+MAIN STYLES
+----------------------------------*/
+
+html {
+  font-size: 62.5%; /* 10px browser default */
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	top: -12px;
+}
+
+body {
+  color: $text-color;
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: 1.6;
+}
+
+/*----------------------------------
+NAV
+----------------------------------*/
+.hamburger {
+	width: 30px;
+	height: 30px;
+}
+
+.hamburgerContainer {
+	padding: 5px;
+	position: fixed;
+	top: 3%;
+	left: 1%;
+	// display: inline;
+}
+
+ul {
+	display: inline;
+	position: fixed;
+	top: 1.75%;
+	right: 2%;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	padding: 10px;
+	text-transform: uppercase;
+
+	&:hover {
+
+	}
+}
+
+.logo {
+
+}
+
+
+/*----------------------------------
+SEARCH BAR
+----------------------------------*/
+
+input {
+	margin: 0 auto;
+	padding: 20px;
+	width: 100%;
+	font-size: 2rem;
+}
+
+.searchBar {
+	width: 45%;
+	margin: 0 auto;
+	padding: 5px;
+	position: relative;
+}
+
+
+
+/*----------------------------------
+SEARCH BUTTON
+----------------------------------*/
+button {
+	width: 12%;
+	padding: 5px;
+	padding-right: 10px;
+	// position: relative;
+	// padding:6px 15px;
+	background-color: #207cca;
+	border: 2px solid #207cca;
+	color: #fafafa;
+
+	&:hover {
+		
+	}
+}
+
+.searchButton {
+
+}
+
+/*----------------------------------
+OPTIONS
+----------------------------------*/
+
+.options {
+
+}
+
+.name {
+	font-size: 3.6rem;
+}
+
+/*----------------------------------
+RESULT
+----------------------------------*/
+
+.date {
+}
+
+.closed, .open {
+	font-size: 40px;
+	background: #000000;
+	color: #ffffff;
+	margin: 0;
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 2%;
+}
+
+/*----------------------------------
+HOURS
+----------------------------------*/
+
+.hours {
+	padding-top: 4%;
+}
+
+.storeHours, .holidayHours {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.holidayHours {
+	padding-top: 4%;
+}
+
+
+
