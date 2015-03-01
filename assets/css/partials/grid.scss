@@ -1,3 +1,12 @@
+/*Store Hours App*/
+/*Copyright 2015, Sharon Chan & Andrew Nguyen*/
+/*// isitopen.today*/
+/*// Complete date: DDMMYYYY*/
+
+/*----------------------------------
+TABLE OF CONTENTS
+----------------------------------*/
+
 /*----------------------------------
 NORMALIZE
 ----------------------------------*/
@@ -31,13 +40,41 @@ CLEARFIX
 	*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 /*----------------------------------
-SASS
+SASS PARTIALS
 ----------------------------------*/
+
+@import "partials/_colors";
+// @import "partials/_grid";
+// @import "partials/_mixins";
+// @import "partials/_normalize";
+
+/*// Sections*/
+// @import "partials/_base";
+// @import "partials/_intro";
+// @import "partials/_sidebar";
+// @import "partials/_chart";
+// @import "partials/_tooltip";
+// @import "partials/_others";
+// @import "partials/_homescreen";
+// @import "partials/_footer";
+// @import "partials/_feedback";
 
 /*----------------------------------
 MAIN STYLES
 ----------------------------------*/
 
+html {
+  font-size: 62.5%; /* 10px browser default */
+}
+
 /*----------------------------------
-DEFAULT HEADER
+GRID
 ----------------------------------*/
+
+/*----------------------------------
+MIXINS
+----------------------------------*/
+
+/*----------------------------------
+COLORS
+----------------------------------
