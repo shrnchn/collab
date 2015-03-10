@@ -1,0 +1,255 @@
+{
+	"stores": [
+		{
+			"id": "0001",
+			"type": ["supermarket"],
+			"name": "No Frills",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Tuesday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Wednesday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Thursday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Friday", "hours": "8:00 AM - 10:00 PM" },
+						{ "day": "Saturday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Sunday", "hours": "8:00 AM - 8:00 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "8:00 AM - 9:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0002",
+			"type": ["supermarket"],
+			"name": "Loblaws",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "8:00 AM - 11:00 PM" },
+						{ "day": "Tuesday", "hours": "8:00 AM - 11:00 PM" },
+						{ "day": "Wednesday", "hours": "8:00 AM - 11:00 PM" },
+						{ "day": "Thursday", "hours": "8:00 AM - 11:00 PM" },
+						{ "day": "Friday", "hours": "8:00 AM - 11:00 PM" },
+						{ "day": "Saturday", "hours": "8:00 AM - 11:00 PM" },
+						{ "day": "Sunday", "hours": "8:00 AM - 11:00 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "8:00 AM - 11:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0003",
+			"type": ["retail"],
+			"name": "The Home Depot",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Tuesday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Wednesday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Thursday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Friday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Saturday", "hours": "9:00 AM - 6:00 PM" },
+						{ "day": "Sunday", "hours": "9:00 AM - 6:00 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "8:00 AM - 11:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0004",
+			"type": ["coffee shop"],
+			"name": "Starbucks",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "6:00 AM - 10:00 PM" },
+						{ "day": "Tuesday", "hours": "6:00 AM - 10:00 PM" },
+						{ "day": "Wednesday", "hours": "6:00 AM - 10:00 PM" },
+						{ "day": "Thursday", "hours": "6:00 AM - 10:00 PM" },
+						{ "day": "Friday", "hours": "6:00 AM - 11:00 PM" },
+						{ "day": "Saturday", "hours": "7:00 AM - 11:00 PM" },
+						{ "day": "Sunday", "hours": "8:00 AM - 10:00 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "6:00 AM - 10:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0005",
+			"type": ["supermarket"],
+			"name": "Metro",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "12:00 AM - 11:59 PM" },
+						{ "day": "Tuesday", "hours": "12:00 AM - 11:59 PM" },
+						{ "day": "Wednesday", "hours": "12:00 AM - 11:59 PM" },
+						{ "day": "Thursday", "hours": "12:00 AM - 11:59 PM" },
+						{ "day": "Friday", "hours": "12:00 AM - 11:59 PM" },
+						{ "day": "Saturday", "hours": "12:00 AM - 11:59 PM" },
+						{ "day": "Sunday", "hours": "12:00 AM - 11:59 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "12:00 AM - 11:59 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0006",
+			"type": ["retail"],
+			"name": "The Beer Store",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Tuesday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Wednesday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Thursday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Friday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Saturday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Sunday", "hours": "12:00 PM - 5:00 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "10:00 AM - 9:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0007",
+			"type": ["banking"],
+			"name": "TD Canada Trust",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "8:00 AM - 6:00 PM" },
+						{ "day": "Tuesday", "hours": "8:00 AM - 6:00 PM" },
+						{ "day": "Wednesday", "hours": "8:00 AM - 6:00 PM" },
+						{ "day": "Thursday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Friday", "hours": "8:00 AM - 8:00 PM" },
+						{ "day": "Saturday", "hours": "8:00 AM - 4:00 PM" },
+						{ "day": "Sunday", "hours": "Closed" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "8:00 AM - 4:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0008",
+			"type": ["banking"],
+			"name": "Scotiabank",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "10:00 AM - 4:00 PM" },
+						{ "day": "Tuesday", "hours": "10:00 AM - 4:00 PM" },
+						{ "day": "Wednesday", "hours": "10:00 AM - 4:00 PM" },
+						{ "day": "Thursday", "hours": "10:00 AM - 4:00 PM" },
+						{ "day": "Friday", "hours": "10:00 AM - 6:00 PM" },
+						{ "day": "Saturday", "hours": "10:00 AM - 2:00 PM" },
+						{ "day": "Sunday", "hours": "Closed" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "8:00 AM - 4:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0009",
+			"type": ["retail"],
+			"name": "Canadian Tire",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Tuesday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Wednesday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Thursday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Friday", "hours": "8:00 AM - 9:00 PM" },
+						{ "day": "Saturday", "hours": "8:00 AM - 6:00 PM" },
+						{ "day": "Sunday", "hours": "9:00 AM - 6:00 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "8:00 AM - 9:00 PM" }
+						// more holidays to go in here
+					]
+		},
+		{
+			"id": "0010",
+			"type": ["retail"],
+			"name": "Sport Chek",
+			"store_times":
+			{ 
+				"day_hours":
+					[
+						{ "day": "Monday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Tuesday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Wednesday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Thursday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Friday", "hours": "10:00 AM - 9:00 PM" },
+						{ "day": "Saturday", "hours": "9:30 AM - 9:00 PM" },
+						{ "day": "Sunday", "hours": "11:00 AM - 7:00 PM" }
+					]
+			},
+
+				"holiday_hours":
+					[
+						{ "Christmas": "Closed" }
+						{ "Boxing Day": "Open", "hours": "10:00 AM - 9:00 PM" }
+						// more holidays to go in here
+					]
+		},
+
+	]
+}
